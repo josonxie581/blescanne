@@ -5,6 +5,8 @@
 
 一个基于 SimpleBLE、Tauri、TypeScript 和 React 构建的 Windows 平台 BLE 设备扫描应用程序（当前仅支持 Windows 10/11）。
 
+[English README](./README.en.md)
+
 ## ✨ 特性
 
 - 🚀 **高性能**: 使用 Tauri 构建，体积小（~10MB），启动快
