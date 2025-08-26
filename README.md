@@ -1,7 +1,7 @@
 # BLE Scanner - Tauri + TypeScript + React
 
 <!-- 将 OWNER/REPO 替换为你的 GitHub 仓库路径，例如 user/blescanne -->
-[![Windows CI - Build and Package](https://github.com/OWNER/REPO/actions/workflows/windows-build.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/windows-build.yml)
+[![Windows CI - Build and Package](https://github.com/josonxie581/blescanne/actions/workflows/windows-build.yml/badge.svg)](https://github.com/josonxie581/blescanne/actions/workflows/windows-build.yml)
 
 一个基于 SimpleBLE、Tauri、TypeScript 和 React 构建的 Windows 平台 BLE 设备扫描应用程序（当前仅支持 Windows 10/11）。
 
