@@ -1,0 +1,10 @@
+{
+  "app.title": "BLE 设备扫描器",
+  "adapters.enable": "请启用蓝牙适配器以开始扫描设备",
+  "scan.start_hint": "点击\"开始扫描\"来搜索附近的 BLE 设备",
+  "devices.found": "发现的设备 ({{count}})",
+  "devices.empty.filtered": "没有设备匹配当前过滤条件",
+  "devices.empty.hint": "尝试调整过滤器设置或清除所有过滤条件",
+  "loading.device": "正在加载设备信息...",
+  "loading.device.hint": "如果一直显示此消息，请检查设备连接状态"
+}

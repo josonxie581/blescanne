@@ -1,0 +1,17 @@
+{
+  "app": {
+    "title": "Escáner BLE"
+  },
+  "language": {
+    "en": "Inglés",
+    "zh": "Chino",
+    "es": "Español"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "auto": "Auto"
+  },
+  "about": "Acerca de",
+  "backToHome": "Volver al Inicio"
+}

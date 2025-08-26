@@ -1,0 +1,29 @@
+[package]
+name = "blescanner"
+version = "0.1.0"
+description = "A BLE Scanner Application using SimpleBLE"
+authors = ["you"]
+license = ""
+repository = ""
+default-run = "blescanner"
+edition = "2021"
+rust-version = "1.60"
+
+[build-dependencies]
+tauri-build = { version = "1.0", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { version = "1.0", features = [ "system-tray", "dialog-all", "window-show", "window-set-skip-taskbar", "window-set-resizable", "window-request-user-attention", "window-close", "window-maximize", "window-minimize", "window-center", "window-set-position", "window-set-fullscreen", "window-set-min-size", "window-set-icon", "window-set-focus", "window-hide", "window-unmaximize", "window-start-dragging", "window-set-size", "window-set-title", "window-set-max-size", "window-unminimize", "window-set-always-on-top", "window-create", "window-set-decorations", "clipboard-all"] }
+tokio = { version = "1.0", features = ["full"] }
+futures = "0.3"
+anyhow = "1.0"
+uuid = "1.0"
+hex = "0.4"
+regex = "1"
+simplersble = { path = "../external/simpleble", features = [] }
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]

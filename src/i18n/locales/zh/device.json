@@ -1,0 +1,110 @@
+{
+  "unknownDevice": "未知设备",
+  "id": "ID",
+  "mac": "MAC地址",
+  "copy": "复制",
+  "copied": "已复制",
+  "txPower": "发射功率",
+  "connection": "连接状态",
+  "connected": "已连接",
+  "disconnected": "未连接",
+  "manufacturer": {
+    "title": "制造商数据",
+    "entries": "{{count}} 条目",
+    "all": "全部",
+    "hex": "十六进制数据",
+    "bytes": "{{count}} 字节"
+  },
+  "services": {
+    "title": "广告服务",
+    "count": "{{count}} 个服务",
+    "all": "全部",
+    "uuid": "UUID",
+    "std": "STD",
+    "custom": "CUSTOM"
+  },
+  "adv": {
+    "title": "广播数据",
+    "fields": "{{count}} 字段",
+    "all": "全部",
+    "expand": "展开",
+    "collapse": "收起",
+    "copy": "复制"
+  },
+  "raw": {
+    "title": "原始广播数据",
+    "bytes": "{{count}} 字节",
+    "raw": "原始",
+    "details": "详细解析",
+    "hexData": "十六进制数据",
+    "parse": {
+      "title": "解析信息",
+      "deviceType": "设备类型",
+  "deviceType_speaker": "音箱类型",
+  "deviceType_tws": "TWS耳机类型",
+  "deviceType_soundcard": "声卡类型",
+  "deviceType_watch": "手表类型",
+  "deviceType_unknown": "未知类型",
+      "companyId": "公司ID",
+      "batteryStatus": "电池状态",
+      "ear": {
+        "left": "左耳",
+        "right": "右耳",
+        "case": "充电盒"
+      }
+    }
+  },
+  "field": {
+    "title": "字段解析",
+    "value": "值",
+    "interpretation": "解释"
+  },
+  "actions": {
+    "processing": "处理中...",
+    "notConnectable": "设备不可连接",
+    "disconnect": "断开连接",
+    "connect": "连接设备"
+  },
+  "header": {
+    "name": "设备名称",
+    "connectable": "可连接",
+    "id": "ID",
+    "rssi": "dBm"
+  },
+  "footer": {
+    "connected": "设备已连接",
+    "services": "{{count}} 个服务可用",
+    "standalone": "独立窗口模式",
+    "hint": "点击服务展开特征值详情"
+  },
+  "details": {
+    "loading": "正在加载服务数据",
+    "loadingHint": "请稍候，正在从设备获取 GATT 服务信息...",
+    "advertisementData": "广告数据",
+    "advertisementDataDesc": "设备广告信息和制造商数据",
+    "gattServices": "GATT 服务",
+    "gattServicesDesc": "设备服务和特征值，用于设备通信",
+  "characteristicsCount": "{{count}} 个特征值",
+    "currentValue": "当前值",
+    "toggleFormat": "切换显示格式",
+    "copyValue": "复制值",
+    "noData": "暂无数据",
+    "notifications": "通知记录",
+    "indications": "指示记录",
+    "messages": "消息记录",
+    "clear": "清除",
+    "read": "读取",
+    "reading": "读取中...",
+    "write": "写入",
+  "writePlaceholder": "输入要写入的值（支持HEX或文本）...",
+    "writing": "写入中...",
+    "subscribeNotify": "订阅通知",
+    "stopNotify": "停止通知",
+    "subscribeIndicate": "订阅指示",
+    "stopIndicate": "停止指示",
+    "close": "关闭窗口",
+    "disconnect": "断开连接"
+  },
+  "expand": "展开",
+  "collapse": "收起"
+}

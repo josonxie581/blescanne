@@ -1,0 +1,37 @@
+{
+  "title": "About",
+  "subtitle": "BLE Scanner - Professional Bluetooth Low Energy Device Manager",
+  "projectInfo": {
+    "title": "Project Information",
+    "name": "Project Name",
+    "version": "Version",
+    "description": "Description",
+    "descriptionText": "A professional BLE (Bluetooth Low Energy) device scanner built with Tauri, React, and SimpleBLE. Provides comprehensive device discovery, connection management, and real-time data monitoring capabilities.",
+    "techStack": "Technology Stack",
+    "features": "Key Features",
+    "feature1": "Real-time BLE device scanning and discovery",
+    "feature2": "Advanced filtering and device management",
+    "feature3": "Cross-platform desktop application (Windows, macOS, Linux)",
+    "feature4": "Multi-language support and dark/light themes"
+  },
+  "dependencies": {
+    "title": "Dependencies & Libraries",
+    "categories": {
+      "core": "Core Frameworks",
+      "frontend": "Frontend Libraries",
+      "backend": "Backend Libraries", 
+      "development": "Development Tools"
+    }
+  },
+  "acknowledgments": {
+    "title": "Acknowledgments",
+    "text": "Special thanks to the open source community and all the amazing libraries and tools that made this project possible. This application is built with modern web technologies and cross-platform frameworks to provide a seamless Bluetooth Low Energy management experience across different operating systems."
+  },
+  "highPerformance": "High Performance",
+  "crossPlatform": "Cross Platform",
+  "modernDesign": "Modern Design", 
+  "multiLanguage": "Multi-language",
+  "dependencyCount": "dependencies",
+  "poweredBySimpleBLE": "Powered by SimpleBLE",
+  "simpleBleDescription": "The core BLE functionality of this project is powered by the SimpleBLE library developed by the OpenBluetoothToolbox team. SimpleBLE is a cross-platform Bluetooth Low Energy communication library that provides a unified API interface for Windows, macOS, Linux, iOS, and Android."
+}

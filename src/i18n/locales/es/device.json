@@ -1,0 +1,110 @@
+{
+  "unknownDevice": "Dispositivo desconocido",
+  "id": "ID",
+  "mac": "Dirección MAC",
+  "copy": "Copiar",
+  "copied": "Copiado",
+  "txPower": "Potencia TX",
+  "connection": "Conexión",
+  "connected": "Conectado",
+  "disconnected": "Desconectado",
+  "manufacturer": {
+    "title": "Datos del fabricante",
+    "entries": "{{count}} entradas",
+    "all": "Todo",
+    "hex": "Datos hex",
+    "bytes": "{{count}} bytes"
+  },
+  "services": {
+    "title": "Servicios anunciados",
+    "count": "{{count}} servicios",
+    "all": "Todo",
+    "uuid": "UUID",
+    "std": "STD",
+    "custom": "CUSTOM"
+  },
+  "adv": {
+    "title": "Datos de anuncio",
+    "fields": "{{count}} campos",
+    "all": "Todo",
+    "expand": "Expandir",
+    "collapse": "Colapsar",
+    "copy": "Copiar"
+  },
+  "raw": {
+    "title": "Datos de anuncio bruto",
+    "bytes": "{{count}} bytes",
+    "raw": "Bruto",
+    "details": "Detalles",
+    "hexData": "Datos hex",
+    "parse": {
+      "title": "Información analizada",
+      "deviceType": "Tipo de dispositivo",
+  "deviceType_speaker": "Altavoz",
+  "deviceType_tws": "Auriculares TWS",
+  "deviceType_soundcard": "Tarjeta de sonido",
+  "deviceType_watch": "Reloj",
+  "deviceType_unknown": "Tipo desconocido",
+      "companyId": "ID de compañía",
+      "batteryStatus": "Estado de la batería",
+      "ear": {
+        "left": "Izquierdo",
+        "right": "Derecho",
+        "case": "Estuche"
+      }
+    }
+  },
+  "field": {
+    "title": "Detalles del campo",
+    "value": "Valor",
+    "interpretation": "Interpretación"
+  },
+  "actions": {
+    "processing": "Procesando...",
+    "notConnectable": "No conectable",
+    "disconnect": "Desconectar",
+    "connect": "Conectar"
+  },
+  "header": {
+    "name": "Nombre del dispositivo",
+    "connectable": "Conectable",
+    "id": "ID",
+    "rssi": "dBm"
+  },
+  "footer": {
+    "connected": "Dispositivo conectado",
+    "services": "{{count}} servicios disponibles",
+    "standalone": "Modo de ventana independiente",
+    "hint": "Haz clic en un servicio para ver detalles"
+  },
+  "details": {
+    "loading": "Cargando servicios...",
+    "loadingHint": "Obteniendo servicios GATT del dispositivo...",
+    "advertisementData": "Datos de Anuncio",
+    "advertisementDataDesc": "Información de anuncio del dispositivo y datos del fabricante",
+    "gattServices": "Servicios GATT",
+    "gattServicesDesc": "Servicios y características del dispositivo para comunicación",
+  "characteristicsCount": "{{count}} características",
+    "currentValue": "Valor actual",
+    "toggleFormat": "Cambiar formato",
+    "copyValue": "Copiar valor",
+    "noData": "Sin datos",
+    "notifications": "Notificaciones",
+    "indications": "Indicaciones",
+    "messages": "Mensajes",
+    "clear": "Limpiar",
+    "read": "Leer",
+    "reading": "Leyendo...",
+  "write": "Escribir",
+  "writePlaceholder": "Introduce el valor a escribir (HEX o texto)...",
+    "writing": "Escribiendo...",
+    "subscribeNotify": "Suscribir notificaciones",
+    "stopNotify": "Detener notificaciones",
+    "subscribeIndicate": "Suscribir indicaciones",
+    "stopIndicate": "Detener indicaciones",
+    "close": "Cerrar ventana",
+    "disconnect": "Desconectar"
+  },
+  "expand": "Expandir",
+  "collapse": "Colapsar"
+}

@@ -1,0 +1,17 @@
+{
+  "app": {
+    "title": "BLE Scanner"
+  },
+  "language": {
+    "en": "English",
+    "zh": "Chinese",
+    "es": "Spanish"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "auto": "Auto"
+  },
+  "about": "About",
+  "backToHome": "Back to Home"
+}

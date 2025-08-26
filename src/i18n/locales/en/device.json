@@ -1,0 +1,110 @@
+{
+  "unknownDevice": "Unknown Device",
+  "id": "ID",
+  "mac": "MAC Address",
+  "copy": "Copy",
+  "copied": "Copied",
+  "txPower": "TX Power",
+  "connection": "Connection",
+  "connected": "Connected",
+  "disconnected": "Disconnected",
+  "manufacturer": {
+    "title": "Manufacturer Data",
+    "entries": "{{count}} entries",
+    "all": "All",
+    "hex": "Hex Data",
+    "bytes": "{{count}} bytes"
+  },
+  "services": {
+    "title": "Advertised Services",
+    "count": "{{count}} services",
+    "all": "All",
+    "uuid": "UUID",
+    "std": "STD",
+    "custom": "CUSTOM"
+  },
+  "adv": {
+    "title": "Advertisement Data",
+    "fields": "{{count}} fields",
+    "all": "All",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "copy": "Copy"
+  },
+  "raw": {
+    "title": "Raw Advertisement Data",
+    "bytes": "{{count}} bytes",
+    "raw": "Raw",
+    "details": "Details",
+    "hexData": "Hex Data",
+    "parse": {
+      "title": "Parsed Info",
+      "deviceType": "Device Type",
+  "deviceType_speaker": "Speaker",
+  "deviceType_tws": "TWS Earbuds",
+  "deviceType_soundcard": "Sound Card",
+  "deviceType_watch": "Watch",
+  "deviceType_unknown": "Unknown Type",
+      "companyId": "Company ID",
+      "batteryStatus": "Battery Status",
+      "ear": {
+        "left": "Left",
+        "right": "Right",
+        "case": "Case"
+      }
+    }
+  },
+  "field": {
+    "title": "Field Details",
+    "value": "Value",
+    "interpretation": "Interpretation"
+  },
+  "actions": {
+    "processing": "Processing...",
+    "notConnectable": "Device not connectable",
+    "disconnect": "Disconnect",
+    "connect": "Connect"
+  },
+  "header": {
+    "name": "Device Name",
+    "connectable": "Connectable",
+    "id": "ID",
+    "rssi": "dBm"
+  },
+  "footer": {
+    "connected": "Device Connected",
+    "services": "{{count}} services available",
+    "standalone": "Standalone Window Mode",
+    "hint": "Click a service to expand characteristic details"
+  },
+  "details": {
+    "loading": "Loading services...",
+    "loadingHint": "Fetching GATT services from device...",
+    "advertisementData": "Advertisement Data",
+    "advertisementDataDesc": "Device advertisement and manufacturer information",
+    "gattServices": "GATT Services",
+    "gattServicesDesc": "Device services and characteristics for communication",
+  "characteristicsCount": "{{count}} characteristics",
+    "currentValue": "Current Value",
+    "toggleFormat": "Toggle format",
+    "copyValue": "Copy Value",
+    "noData": "No data",
+    "notifications": "Notifications",
+    "indications": "Indications",
+    "messages": "Messages",
+    "clear": "Clear",
+    "read": "Read",
+    "reading": "Reading...",
+  "write": "Write",
+  "writePlaceholder": "Enter value to write (HEX or text)...",
+    "writing": "Writing...",
+    "subscribeNotify": "Subscribe Notify",
+    "stopNotify": "Stop Notify",
+    "subscribeIndicate": "Subscribe Indicate",
+    "stopIndicate": "Stop Indicate",
+    "close": "Close window",
+    "disconnect": "Disconnect"
+  },
+  "expand": "Expand",
+  "collapse": "Collapse"
+}

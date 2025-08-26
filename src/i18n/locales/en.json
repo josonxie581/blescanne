@@ -1,0 +1,10 @@
+{
+  "app.title": "BLE Scanner",
+  "adapters.enable": "Please enable the Bluetooth adapter to start scanning",
+  "scan.start_hint": "Click \"Start Scan\" to search nearby BLE devices",
+  "devices.found": "Discovered Devices ({{count}})",
+  "devices.empty.filtered": "No devices match current filters",
+  "devices.empty.hint": "Try adjusting or clearing filters",
+  "loading.device": "Loading device info...",
+  "loading.device.hint": "If this persists, please check connection status"
+}

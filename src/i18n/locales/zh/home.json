@@ -1,0 +1,45 @@
+{
+  "found": "发现的设备 ({{count}})",
+  "emptyFiltered": "没有设备匹配当前过滤条件",
+  "emptyHint": "尝试调整过滤器设置或清除所有过滤条件",
+  "enableAdapter": "请启用蓝牙适配器以开始扫描设备",
+  "startHint": "点击\"开始扫描\"来搜索附近的 BLE 设备",
+  "scan": {
+    "title": "BLE 设备扫描",
+    "scanning": "正在扫描设备...",
+    "foundCount": "已发现 {{count}} 个设备",
+    "clear": "清空",
+    "start": "开始扫描",
+  "stop": "停止扫描",
+  "duration": "扫描时长",
+  "continuous": "连续扫描",
+  "unitSeconds": "秒"
+  },
+  "filter": {
+    "title": "扫描过滤",
+    "enabled": "已启用",
+    "showing": "显示 {{filtered}} / {{total}} 设备",
+    "name": "设备名称",
+    "namePlaceholder": "搜索设备名称...",
+    "mac": "MAC地址",
+    "rssi": "RSSI 范围 (dBm)",
+    "to": "到",
+    "connectable": "可连接性",
+    "connectable_all": "全部设备",
+    "connectable_only": "仅可连接",
+    "connectable_none": "仅不可连接",
+    "clearFilters": "清除过滤",
+    "quick": "快速过滤:",
+    "quickStrong": "强信号 (≥-60dBm)",
+    "quickConnectable": "仅可连接",
+    "quickIPhone": "iPhone设备"
+  },
+  "adapter": {
+    "checking": "正在检测蓝牙适配器...",
+    "none": "未检测到蓝牙适配器",
+    "hint": "请确保您的设备支持蓝牙并已启用。",
+    "enabled": "已启用",
+    "disabled": "已禁用",
+    "ready": "就绪"
+  }
+}

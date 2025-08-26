@@ -1,0 +1,37 @@
+{
+  "title": "关于",
+  "subtitle": "BLE 扫描器 - 专业的蓝牙低功耗设备管理工具",
+  "projectInfo": {
+    "title": "项目信息",
+    "name": "项目名称",
+    "version": "版本",
+    "description": "项目描述",
+    "descriptionText": "一个使用 Tauri、React 和 SimpleBLE 构建的专业 BLE（蓝牙低功耗）设备扫描器。提供全面的设备发现、连接管理和实时数据监控功能。",
+    "techStack": "技术栈",
+    "features": "主要特性",
+    "feature1": "实时 BLE 设备扫描和发现",
+    "feature2": "高级设备过滤和管理功能",
+    "feature3": "跨平台桌面应用（Windows、macOS、Linux）",
+    "feature4": "多语言支持和明暗主题切换"
+  },
+  "dependencies": {
+    "title": "依赖库和组件",
+    "categories": {
+      "core": "核心框架",
+      "frontend": "前端库",
+      "backend": "后端库",
+      "development": "开发工具"
+    }
+  },
+  "acknowledgments": {
+    "title": "致谢",
+    "text": "特别感谢开源社区以及所有让这个项目成为可能的优秀库和工具。本应用使用现代 Web 技术和跨平台框架构建，为不同操作系统提供无缝的蓝牙低功耗管理体验。"
+  },
+  "highPerformance": "高性能",
+  "crossPlatform": "跨平台",
+  "modernDesign": "现代设计",
+  "multiLanguage": "多语言",
+  "dependencyCount": "个依赖项",
+  "poweredBySimpleBLE": "基于 SimpleBLE 构建",
+  "simpleBleDescription": "本项目的核心 BLE 功能由 OpenBluetoothToolbox 团队开发的 SimpleBLE 库提供强大支持。SimpleBLE 是一个功能完整的跨平台蓝牙低功耗通信库，为 Windows、macOS、Linux、iOS 和 Android 等多个平台提供统一且易用的 API 接口，让开发者能够轻松实现跨平台的蓝牙应用。"
+}

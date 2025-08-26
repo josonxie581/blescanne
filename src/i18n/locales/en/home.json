@@ -1,0 +1,45 @@
+{
+  "found": "Discovered Devices ({{count}})",
+  "emptyFiltered": "No devices match current filters",
+  "emptyHint": "Try adjusting or clearing filters",
+  "enableAdapter": "Please enable the Bluetooth adapter to start scanning",
+  "startHint": "Click \"Start Scan\" to search nearby BLE devices",
+  "scan": {
+    "title": "BLE Scan",
+    "scanning": "Scanning...",
+    "foundCount": "Found {{count}} devices",
+    "clear": "Clear",
+    "start": "Start Scan",
+  "stop": "Stop Scan",
+  "duration": "Duration",
+  "continuous": "Continuous",
+  "unitSeconds": "s"
+  },
+  "filter": {
+    "title": "Scan Filters",
+    "enabled": "Enabled",
+    "showing": "Showing {{filtered}} / {{total}} devices",
+    "name": "Device Name",
+    "namePlaceholder": "Search device name...",
+    "mac": "MAC Address",
+    "rssi": "RSSI Range (dBm)",
+    "to": "to",
+    "connectable": "Connectable",
+    "connectable_all": "All devices",
+    "connectable_only": "Connectable only",
+    "connectable_none": "Non-connectable only",
+    "clearFilters": "Clear Filters",
+    "quick": "Quick Filters:",
+    "quickStrong": "Strong signal (≥-60dBm)",
+    "quickConnectable": "Connectable only",
+    "quickIPhone": "iPhone devices"
+  },
+  "adapter": {
+    "checking": "Checking Bluetooth adapter...",
+    "none": "No Bluetooth adapter detected",
+    "hint": "Ensure your device supports Bluetooth and it's enabled.",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "ready": "Ready"
+  }
+}

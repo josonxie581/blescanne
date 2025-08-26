@@ -1,0 +1,37 @@
+{
+  "title": "Acerca de",
+  "subtitle": "Escáner BLE - Gestor Profesional de Dispositivos Bluetooth de Baja Energía",
+  "projectInfo": {
+    "title": "Información del Proyecto",
+    "name": "Nombre del Proyecto",
+    "version": "Versión",
+    "description": "Descripción",
+    "descriptionText": "Un escáner profesional de dispositivos BLE (Bluetooth de Baja Energía) construido con Tauri, React y SimpleBLE. Proporciona capacidades integrales de descubrimiento de dispositivos, gestión de conexiones y monitoreo de datos en tiempo real.",
+    "techStack": "Stack Tecnológico",
+    "features": "Características Principales",
+    "feature1": "Escaneo y descubrimiento de dispositivos BLE en tiempo real",
+    "feature2": "Filtrado avanzado y gestión de dispositivos",
+    "feature3": "Aplicación de escritorio multiplataforma (Windows, macOS, Linux)",
+    "feature4": "Soporte multiidioma y temas claro/oscuro"
+  },
+  "dependencies": {
+    "title": "Dependencias y Librerías",
+    "categories": {
+      "core": "Frameworks Principales",
+      "frontend": "Librerías Frontend",
+      "backend": "Librerías Backend",
+      "development": "Herramientas de Desarrollo"
+    }
+  },
+  "acknowledgments": {
+    "title": "Agradecimientos",
+    "text": "Agradecimientos especiales a la comunidad de código abierto y todas las increíbles librerías y herramientas que hicieron posible este proyecto. Esta aplicación está construida con tecnologías web modernas y frameworks multiplataforma para proporcionar una experiencia de gestión de Bluetooth de Baja Energía perfecta en diferentes sistemas operativos."
+  },
+  "highPerformance": "Alto Rendimiento",
+  "crossPlatform": "Multiplataforma",
+  "modernDesign": "Diseño Moderno",
+  "multiLanguage": "Multiidioma",
+  "dependencyCount": "dependencias",
+  "poweredBySimpleBLE": "Impulsado por SimpleBLE",
+  "simpleBleDescription": "La funcionalidad BLE central de este proyecto está proporcionada por la potente librería SimpleBLE desarrollada por el equipo OpenBluetoothToolbox. SimpleBLE es una librería de comunicación Bluetooth de Baja Energía multiplataforma completa que proporciona una interfaz API unificada y fácil de usar para Windows, macOS, Linux, iOS y Android, permitiendo a los desarrolladores crear aplicaciones Bluetooth multiplataforma con facilidad."
+}
