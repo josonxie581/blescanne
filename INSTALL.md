@@ -82,7 +82,7 @@ npx tauri --version
 ### 1. 进入项目目录
 
 ```bash
-cd D:\simpleble\blescanner
+cd blescanner
 ```
 
 ### 2. 安装前端依赖

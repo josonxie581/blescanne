@@ -7,8 +7,8 @@ setlocal
 echo ==> Installing npm dependencies...
 call npm install || goto :err
 
-echo ==> Starting Tauri dev...
-call npm exec tauri dev || goto :err
+echo ==> Starting Tauri dev (Release)...
+call npm run tauri:dev:release || goto :err
 
 echo Done.
 endlocal

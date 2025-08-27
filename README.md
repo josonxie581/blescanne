@@ -44,57 +44,28 @@
 
 ### 快速步骤
 
+> 重要：以下命令请在 Windows PowerShell 中执行（不要在 CMD 或 Git Bash 中执行）。
+
 ```powershell
 # 1) 克隆并进入目录
-git clone <你的仓库地址>
+git clone https://github.com/josonxie581/blescanne.git
 cd blescanne
 
 # 2) 构建并配置 SimpleBLE v0.10.3
-powershell -ExecutionPolicy Bypass -File .\scripts\fetch-build-simpleble.ps1
+npm run simpleble:build
 .\external\simpleble\set-simpleble-env.ps1
 
-# 3) 开发（热更新）
+# 3) 安装依赖
+npm install
+
+# 4) 开发（热更新）
 npm run setup-and-dev
 
-# 4) 或，生成安装包（会先 vite build 并内嵌前端）
-npm install
+# 5) 或，生成安装包（会先 vite build 并内嵌前端）
 npm run tauri build
 ```
 
-产物位置：
-
-- 安装器：`src-tauri/target/release/bundle/nsis/` 或 `.../msi/`
-- 直接运行的 exe：`src-tauri/target/release/BLE Scanner.exe`
-
-提示：不要直接运行用 `cargo build` 生成的“裸 exe”，否则可能出现 “tauri.localhost 拒绝连接”。请使用 `npm run tauri build` 产物，或先 `npm run build` 再 `cargo build --release`。
-
-### 一键开发脚本
-
-- PowerShell：`npm run setup-and-dev`（等价 `powershell -ExecutionPolicy Bypass -File .\scripts\dev.ps1`）
-- 批处理：`.\scripts\dev.bat`
-
-## ✅ CI 验证（克隆后可编译执行）
-
-本仓库已内置 Windows CI 工作流，自动验证“拉取代码后能否成功编译并打包”：
-
-- 工作流文件：`.github/workflows/windows-build.yml`
-- 触发方式：对 main/master 分支的 push 与 Pull Request
-- CI 步骤（Windows Server 2022 环境）：
-
-   - 安装 Node.js 18、Rust（MSVC）、NSIS 与 WiX
-   - 构建 SimpleBLE v0.10.3（脚本：`scripts/fetch-build-simpleble.ps1`）
-   - 执行 `tauri build`（会先 `vite build`，将前端静态资源内嵌至应用）
-   - 上传安装包产物（MSI 与 NSIS 安装器）
-
-使用方法：
-
-1) 打开仓库的 GitHub Actions 页面，找到工作流 “Windows CI - Build and Package”。
-2) 确认最新一次运行状态为绿色（成功）。
-3) 进入该运行，下载 Artifacts（MSI/EXE 安装包），即可安装运行。
-
-可选：在 README 顶部的状态徽章（需将链接中的 `OWNER/REPO` 替换为你仓库实际路径）可直达工作流页面。
-
-### 集成并链接 C++ SimpleBLE v0.10.3（仅 Windows）
+#### 集成并链接 C++ SimpleBLE v0.10.3（仅 Windows）
 
 如需使用官方 C++ SimpleBLE 源码（v0.10.3）自行编译并链接到本项目：
 
@@ -136,6 +107,39 @@ npm run tauri build
    ```
 
 注意：Rust 构建脚本会在检测到 SIMPLEBLE_LIB_DIR 时自动添加链接搜索路径并链接 SimpleBLE。
+
+产物位置：
+
+- 安装器：`src-tauri/target/release/bundle/nsis/` 或 `.../msi/`
+- 直接运行的 exe：`src-tauri/target/release/BLE Scanner.exe`
+
+提示：不要直接运行用 `cargo build` 生成的“裸 exe”，否则可能出现 “tauri.localhost 拒绝连接”。请使用 `npm run tauri build` 产物，或先 `npm run build` 再 `cargo build --release`。
+
+### 一键开发脚本
+
+- PowerShell：`npm run setup-and-dev`（等价 `powershell -ExecutionPolicy Bypass -File .\scripts\dev.ps1`）
+- 批处理：`.\scripts\dev.bat`
+
+## ✅ CI 验证（克隆后可编译执行）
+
+本仓库已内置 Windows CI 工作流，自动验证“拉取代码后能否成功编译并打包”：
+
+- 工作流文件：`.github/workflows/windows-build.yml`
+- 触发方式：对 main/master 分支的 push 与 Pull Request
+- CI 步骤（Windows Server 2022 环境）：
+
+   - 安装 Node.js 18、Rust（MSVC）、NSIS 与 WiX
+   - 构建 SimpleBLE v0.10.3（脚本：`scripts/fetch-build-simpleble.ps1` 或 `npm run simpleble:build`）
+   - 执行 `tauri build`（会先 `vite build`，将前端静态资源内嵌至应用）
+   - 上传安装包产物（MSI 与 NSIS 安装器）
+
+使用方法：
+
+1) 打开仓库的 GitHub Actions 页面，找到工作流 “Windows CI - Build and Package”。
+2) 确认最新一次运行状态为绿色（成功）。
+3) 进入该运行，下载 Artifacts（MSI/EXE 安装包），即可安装运行。
+
+可选：在 README 顶部的状态徽章（需将链接中的 `OWNER/REPO` 替换为你仓库实际路径）可直达工作流页面。
 
 ### 生产构建
 
@@ -235,7 +239,7 @@ blescanner/
 
 - 链接错误：找不到 SimpleBLE.lib？
 
-   - 确保先运行 `scripts/fetch-build-simpleble.ps1`，并执行 `.\external\simpleble\set-simpleble-env.ps1`；优先使用 Release 构建。
+   - 确保先运行 `npm run simpleble:build`，并执行 `.\external\simpleble\set-simpleble-env.ps1`；优先使用 Release 构建。
 
 - 需要清理编译产物？
 

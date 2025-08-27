@@ -43,20 +43,24 @@ Windows-only BLE device scanner built with SimpleBLE, Tauri, TypeScript, and Rea
 
 ### Steps
 
+> Important: Run the following commands in Windows PowerShell (not in CMD or Git Bash).
+
 ```powershell
 # 1) Clone and enter the project
 git clone https://github.com/josonxie581/blescanne.git
 cd blescanne
 
-# 2) Fetch and build SimpleBLE v0.10.3
-powershell -ExecutionPolicy Bypass -File .\scripts\fetch-build-simpleble.ps1
+# 2) Build and configure SimpleBLE v0.10.3
+npm run simpleble:build
 .\external\simpleble\set-simpleble-env.ps1
 
-# 3) For development with hot reload
+# 3) Install dependencies
+npm install
+
+# 4) Development (hot reload)
 npm run setup-and-dev
 
-# 4) Or build an installer (runs vite build and bundles frontend)
-npm install
+# 5) Or build an installer (will run vite build and bundle frontend)
 npm run tauri build
 ```
 
@@ -81,7 +85,7 @@ This repo ships a Windows CI workflow to validate it builds from a clean clone.
 - Steps (Windows Server 2022):
 
   - Install Node 18, Rust (MSVC), NSIS, WiX
-  - Build SimpleBLE v0.10.3 (script: `scripts/fetch-build-simpleble.ps1`)
+  - Build SimpleBLE v0.10.3 (script: `scripts/fetch-build-simpleble.ps1` or `npm run simpleble:build`)
   - Run `tauri build` (runs `vite build` first and embeds static assets)
   - Upload installer artifacts (MSI and NSIS)
 
@@ -188,7 +192,7 @@ blescanner/
 
 - Link error: cannot open SimpleBLE.lib
 
-  - Run `scripts/fetch-build-simpleble.ps1` and then `.\external\simpleble\set-simpleble-env.ps1`. Prefer Release builds.
+  - Run `npm run simpleble:build` and then `.\external\simpleble\set-simpleble-env.ps1`. Prefer Release builds.
 
 - Clean build artifacts
 
